@@ -1,32 +1,32 @@
 .card {
-    background-color: black;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s;
+  background-color: black;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
 }
 
 .card:hover {
-    transform: scale(1.02);
+  transform: scale(1.02);
 }
 
 .card__title {
-    font-size: 1.1rem;
-    color : white;
-    margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+  color: white;
+  margin: 0 0 0.5rem 0;
 }
 
 .card__info {
-    padding: 1rem;
-    color : white;
+  padding: 1rem;
+  color: white;
 }
 
 .card__description {
-    font-size: 0.9rem;
-    color : white;
+  font-size: 0.9rem;
+  color: white;
 }
 
 .card__poster {
-    width: 100%;
-    display: block;
+  width: 100%;
+  display: block;
 }

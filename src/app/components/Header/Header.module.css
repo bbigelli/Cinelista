@@ -1,28 +1,28 @@
 .header {
-    background-color: black;
-    padding: 1rem 2rem;
+  background-color: black;
+  padding: 1rem 2rem;
 }
 
 .header__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .header__logo {
-    color: red;
-    text-decoration: none;
-    font-size: 1.5rem;
-    font-weight: bold;
+  color: red;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .header__nav a {
-    color: white;
-    text-decoration: none;
-    margin-left: 1.5rem;
+  color: white;
+  text-decoration: none;
+  margin-left: 1.5rem;
 }
 
 .header__nav a:hover {
-    color: rgb(255, 0, 0);
-    text-decoration: none;
-    margin-left: 1.5rem;
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+  margin-left: 1.5rem;
 }
