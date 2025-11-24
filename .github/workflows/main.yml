@@ -50,13 +50,13 @@ jobs:
       - name: Instalçao das dependencias
         run: npm install
 
-        - name: Rodar Lint
+      - name: Rodar Lint
         run: npm run lint
 
-        - name: Verificar formatação
+      - name: Verificar formatação
         run: npm run format -- -- check
 
-        - name: Rodas testes
+      - name: Rodas testes
         run: npm run test
 
         
