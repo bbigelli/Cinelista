@@ -2,11 +2,12 @@ name: Pipeline CI/CD
 on: 
   push:
     branches:
-      - main
-      paths: # só dispara se arquivos nessas pastas mudarem
-      - "src/**" # só mudanças no código fonte
-      - ".github/workflows/**" #só mudanças nos próprios pipelines
-  workflow_dispatch:
+        - main
+    paths: # só dispara se arquivos nessas pastas mudarem
+        - "src/**" # só mudanças no código fonte
+        - ".github/workflows/**" #só mudanças nos próprios pipelines
+  workflow_dispatch: # habilitar o botao "Run workflow" no github Actions
+  
 jobs:
   build:
     runs-on: ubuntu-latest
